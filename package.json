@@ -1,0 +1,12 @@
+{
+  "name": "b2-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pages:dev": "wrangler pages dev ./public",
+    "pages:deploy": "wrangler pages deploy ./public"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
